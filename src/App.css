@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {

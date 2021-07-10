@@ -1,0 +1,37 @@
+.register_container {
+  background-color: #fafafa;
+  width: 55%;
+  padding: 5px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register_container input {
+  width: 55%;
+  margin: 10px auto;
+  height: 55px;
+  border: none;
+  font-size: 15px;
+  letter-spacing: 1.25px;
+}
+
+.register_container button {
+  height: 35px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #1890ff;
+  border-radius: 4px;
+  color: #1890ff;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1.25px;
+  margin: 3%;
+}
+
+.register_container button:hover {
+  color: white;
+  background-color: #1890ff;
+  border: 1px solid #fff;
+}

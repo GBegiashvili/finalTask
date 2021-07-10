@@ -1,0 +1,43 @@
+.comments_container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+}
+
+.comments_container input {
+  width: 65%;
+  margin: 5px auto;
+  height: 25px;
+  font-size: 15px;
+  letter-spacing: 1.25px;
+}
+
+.comment_button_container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.comment_button_container p {
+  font-size: 18px;
+  columns: #4a4b4c;
+}
+
+.comment_button_container button {
+  height: 35px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #1890ff;
+  border-radius: 4px;
+  color: #1890ff;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1.25px;
+  margin: 3%;
+}
+
+.comment_button_container button:hover {
+  color: white;
+  background-color: #1890ff;
+  border: 1px solid #fff;
+}
